@@ -1,0 +1,16 @@
+.hero__header {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+
+  @include media-tablet {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  @include media-desktop {
+    padding-left: 103px;
+    padding-right: 103px;
+  }
+}
