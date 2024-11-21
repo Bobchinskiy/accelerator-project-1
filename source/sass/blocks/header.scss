@@ -1,6 +1,6 @@
 .hero__header {
-  padding-left: 15px;
-  padding-right: 15px;
+  height: 24px;
+  padding: 16px 15px 16px;
   display: flex;
   justify-content: space-between;
 
@@ -13,4 +13,10 @@
     padding-left: 103px;
     padding-right: 103px;
   }
+}
+
+.header__phone {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 700;
 }

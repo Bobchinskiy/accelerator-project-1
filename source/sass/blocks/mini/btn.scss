@@ -1,0 +1,44 @@
+.btn {
+  width: 290px;
+  height: 60px;
+  background-color: transparent;
+  padding: 0;
+  font-family: Roboto Condensed;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  text-align: center;
+  text-transform: uppercase;
+
+  &:focus {
+    border-color: $black;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+  }
+}
+
+.btn--white {
+  border: 2px solid $white;
+  color: $white;
+
+  &:hover {
+    background-color: $white;
+    color: $accent;
+  }
+
+  &:focus {
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  &:active {
+    background-color: $white;
+    color: $primary;
+  }
+
+}
+
+.hero__btn {
+  margin-top: 34px;
+}

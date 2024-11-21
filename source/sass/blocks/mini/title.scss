@@ -1,0 +1,26 @@
+.title {
+
+  &--white {
+    color: $white;
+  }
+
+  &--main {
+    font-family: Alumni Sans;
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 62px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+
+  }
+
+  &--secondary {
+    font-family: Alumni Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0%;
+    margin: 0;
+  }
+}

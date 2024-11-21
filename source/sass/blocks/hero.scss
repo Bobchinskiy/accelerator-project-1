@@ -5,9 +5,6 @@
 .hero__wrapper {
   margin: 0 auto;
   width: 320px;
-  min-height: 412px;
-  padding-top: 16px;
-  padding-bottom: 32px;
 
   @include media-tablet {
     width: 768px;
@@ -21,6 +18,38 @@
     min-height: 760px;
     padding-bottom: 120px;
   }
+}
+
+.hero__content-wrapper {
+  padding: 48px 15px 32px;
+  display: grid;
+  grid-template-areas: "a c"
+    "b d"
+    "f f";
+  grid-template-columns: 113px 156px;
+  column-gap: 21px;
+  row-gap: 14px;
+
+}
+
+.hero__text {
+  grid-area: b;
+  text-align: right;
+  align-self: flex-end;
+}
+
+.hero__title {
+  grid-area: c;
+  text-align: right;
+}
+
+.hero__title-main {
+  grid-area: d;
+  text-align: right;
+}
+
+.hero__btn {
+  grid-area: f;
 }
 
 .hero__promo {
